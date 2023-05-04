@@ -1,0 +1,49 @@
+import { createBrowserRouter } from "react-router-dom";
+import Home from "../layouts/Home";
+import Login from "../pages/Login";
+import MainPage from "../pages/MainPage";
+import ChefDetails from "../pages/ChefDetails";
+import Register from "../pages/Register";
+import PrivateRoute from "./PrivateRoute";
+import Blog from "../pages/Blog";
+import ErrorPage from "../pages/ErrorPage";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home></Home>,
+    errorElement: <ErrorPage></ErrorPage>,
+    children: [
+      {
+        path: "/",
+        element: <MainPage></MainPage>,
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
+      },
+      {
+        path: "/login",
+        element: <Login></Login>,
+      },
+      {
+        path: "/signup",
+        element: <Register></Register>,
+      },
+      {
+        path: "/chef/:id",
+        element: (
+          <PrivateRoute>
+            <ChefDetails></ChefDetails>
+          </PrivateRoute>
+        ),
+        loader: ({ params }) =>
+          fetch(
+            `https://b7a10-chef-recipe-hunter-server-side-rafid149-main.vercel.app/chef/${params.id}`
+          ),
+      },
+    ],
+  },
+]);
+
+export default router;
