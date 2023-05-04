@@ -16,9 +16,9 @@
 
 ## Complete Project
 
-Github Repo -> [Clint-Side]()
+Github Repo -> [Clint-Side]('https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-client-side-Rafid1149')
 
-Github Repo -> [Server-Side]()
+Github Repo -> [Server-Side]('https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-server-side-Rafid1149')
 
 ## Live Link
 
