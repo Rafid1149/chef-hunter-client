@@ -16,10 +16,10 @@
 
 ## Complete Project
 
-Github Repo -> [Clint-Side](https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-client-side-fahimshariar28)
+Github Repo -> [Clint-Side]()
 
-Github Repo -> [Server-Side](https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-server-side-fahimshariar28)
+Github Repo -> [Server-Side]()
 
 ## Live Link
 
-Hosted in Firebase:(https://chef-finder-96398.web.app/)
+Hosted in Firebase:('https://chef-recipe-hunter-9ca63.web.app/')
