@@ -11,7 +11,7 @@ const Header = () => {
   };
   return (
     <div className="w-9/12 mx-auto mt-5 flex justify-between items-center">
-      <h2 className="text-3xl font-bold text-orange-500">Chef Finder</h2>
+      <h2 className="text-4xl font-extrabold text-purple-800">Tasty Hub</h2>
 
       <div onClick={() => setOpen(!open)} className="text-sky-500 md:hidden">
         <span>
